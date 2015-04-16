@@ -1,0 +1,41 @@
+{
+  "name": "ho-conformance-noid",
+  "version": "0.0.0",
+  "description": "reports if ids have styling info attached to them",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tape ./spec/*.js",
+    "build": "rm -rf dist && babel lib --out-dir dist",
+    "watch": "babel --watch lib --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hocss/ho-conformance-noid.git"
+  },
+  "keywords": [
+    "ho",
+    "conformance",
+    "task",
+    "module",
+    "plugin",
+    "base",
+    "abstract"
+  ],
+  "author": "Matt Styles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hocss/ho-conformance-noid/issues"
+  },
+  "homepage": "https://github.com/hocss/ho-conformance-noid",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "core-js": "^0.8.3",
+    "ho-conformance-events": "^0.2.0",
+    "ho-conformance-base": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel": "^5.1.9",
+    "tape": "^4.0.0"
+  }
+}
