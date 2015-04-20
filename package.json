@@ -1,6 +1,6 @@
 {
   "name": "ho-conformance-id",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "reports if ids have styling info attached to them",
   "main": "dist/index.js",
   "scripts": {
